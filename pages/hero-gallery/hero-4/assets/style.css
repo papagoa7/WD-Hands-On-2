@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+.header {
+    margin: 10px 20px;
+    font-family: monospace;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-container {
+    justify-content: center;
+    margin: 30px 0px;
+}
+
+.hero-item {
+    margin: 0px 50px;
+    padding: 10px 20px;
+    background: #000000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.hero-item:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+.back-button {
+    padding: 30px 20px;
+    background: #6c757d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background: #5a6268;
+}
+
+.hero {
+    height: 91vh;
+    background-image: url(../../../../assets/img/steven-universe.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo {
+    margin: 100px 100px;
+    transform: translateY(-100px);
+    animation: slide-up-anim 1.5s ease-out forwards;
+}
+
+@keyframes slide-up-anim {
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.steven {
+    margin: 00px 50px;
+    width: 20vh;
+    transform: translateX(100px);
+    animation: slide-up 1.5s ease-out forwards;
+}
+
+@keyframes slide-up {
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}

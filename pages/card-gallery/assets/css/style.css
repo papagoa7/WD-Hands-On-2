@@ -1,0 +1,167 @@
+body {
+    font-family: 'Roboto';
+    background: #f4f4f4;
+}
+
+.header {
+    font-family: monospace;
+    display: flex;
+    justify-content: space-between;
+}
+
+.back-button {
+    padding: 30px 50px;
+    background: #acacac;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-button:hover {
+    background: #808080;
+}
+
+img {
+    border-radius: 10px;
+    height: 150px;
+    width: 200px;
+}
+
+.spin:hover {
+    animation: spin 1s infinite linear;
+  }
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+
+.shake:hover {
+    animation: shake 2s ease infinite;
+  }
+  @keyframes shake {
+      0%, 100% {transform: translateX(0);}
+      10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);}
+      20%, 40%, 60%, 80% {transform: translateX(10px);}
+  }
+
+.bounce:hover {
+    animation: bounce 2s ease infinite;
+  }
+  @keyframes bounce {
+      70% { transform:translateY(0%); }
+      80% { transform:translateY(-15%); }
+      90% { transform:translateY(0%); }
+      95% { transform:translateY(-7%); }
+      97% { transform:translateY(0%); }
+      99% { transform:translateY(-3%); }
+      100% { transform:translateY(0); }
+  }
+
+.hithere:hover {
+    animation: hithere 1s ease infinite;
+  }
+  @keyframes hithere {
+    30% { transform: scale(1.2); }
+    40%, 60% { transform: rotate(-20deg) scale(1.2); }
+    50% { transform: rotate(20deg) scale(1.2); }
+    70% { transform: rotate(0deg) scale(1.2); }
+    100% { transform: scale(1); }
+  }
+
+.gelatine:hover {
+    animation: gelatine 0.5s infinite;
+  }
+  @keyframes gelatine {
+    from, to { transform: scale(1, 1); }
+    25% { transform: scale(0.9, 1.1); }
+    50% { transform: scale(1.1, 0.9); }
+    75% { transform: scale(0.95, 1.05); }
+  }
+
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    display: block;
+    padding: 0 20px;
+}
+
+.ani-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    text-align: center;
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+.ani-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    background-color: #f5bb4f;
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.button{
+    position: relative;
+    display: inline-block;
+    padding: 20px;
+  }
+
+.button a{
+    color:white;
+    font-family:Helvetica, sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+    text-align: center;
+    text-decoration:none;
+    background-color:#e6a658;
+    display:block;
+    position:relative;
+    padding:5px 20px;
+
+    box-shadow:inset 0 1px 0 #FFE5C4, 0 5px 0 #915100;
+    -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 5px 0 #915100;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.button a:active{
+    top:5px;
+    background-color:#f881b9;
+    box-shadow:inset 0 1px 0 #f881b9, inset 0 -2px 0 #910091;
+    -moz-box-shadow:inset 0 1px 0, inset 0 -2pxpx 0 #915100;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    height: 130px;
+}
+
+
+
+
