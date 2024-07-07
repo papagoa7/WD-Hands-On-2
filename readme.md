@@ -8,6 +8,8 @@
     <img src="./assets/img/happyriko.jpg" alt="Happy Riko" width="130" height="130">
   </a>
 
+  <a href="https://papagoa7.github.io/WD-Hands-On-2/">Link</a>
+
   <h3 align="center">Hero & Cards</h3>
 </div>
 
